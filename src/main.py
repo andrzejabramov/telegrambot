@@ -3,7 +3,7 @@ import telebot
 from src.config import settings
 
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(settings.TOKEN_BOT)
 
 @bot.message_handler(content_types=['voice', ])
 def repeat(message: telebot.types.Message):
