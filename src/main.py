@@ -2,7 +2,6 @@ import telebot
 
 from src.config import settings
 
-TOKEN = '7548689292:AAGouGeLNqH1XAxHqk77EH1yMCdASLGfjXQ'
 
 bot = telebot.TeleBot(TOKEN)
 
